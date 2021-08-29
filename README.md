@@ -1,5 +1,7 @@
 # GitRecipes
 
+A collection of commands encountered when using Git.
+
 ```bash
 1. Remote
 1.1 Check the Upstream
@@ -16,8 +18,6 @@
 2.7 Remove project from Git Directory
 2.8 Remve DS_Store from cache
 ```
-
-A collection of commands encountered when using Git.
 
 1.1 Check the Upstream
 ```bash
@@ -46,7 +46,6 @@ Use set-url
 # git remote set-url <name-of-the-remote> <url-address-of-remote>
 git remote set-url origin https://[token]@github.com/<username>/<repo.git>
 ```
-
 
 2. Manage Local Branch
 2.1 Delete Branch
