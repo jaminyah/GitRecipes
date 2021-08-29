@@ -7,7 +7,6 @@ A collection of commands encountered when using Git.
 1.1 Check the Upstream
 1.2 Show the Remote
 1.3 Change the Remote Origin
-
 2. Manage Local Repositor
 2.1 Delete Branch
 2.2 Abort Merge
@@ -34,10 +33,10 @@ git remote -v
 1.3.1 Option - 1
 Remote the local remote and add the new remote.
 ```bash
-git remote -v                   # show remote
+git remote -v               # show remote
 git remote remove origin
 git remote -v
-git remote add <url>            # GitHub - url: https://[token]@github.com/[username][repo]
+git remote add <url>        # GitHub - url: https://[token]@github.com/[username][repo]
 git remote -v
 ```
 1.3.2 Option - 2
