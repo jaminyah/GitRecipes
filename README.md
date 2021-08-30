@@ -16,6 +16,7 @@ A collection of commands encountered when using Git.
 2.6 Discard Working Directory Changes
 2.7 Remove project from Git Directory
 2.8 Remve DS_Store from cache
+2.9 Undo git init command
 ```
 
 1.1 Check the Upstream
@@ -92,4 +93,9 @@ rm -rf .git
 2.8 Remve DS_Store from cache
 ```bash
 git rm --cached -f *.DS_Store
+```
+
+2.9 Undo git init command
+```bash
+rm -rf .git
 ```
